@@ -52,7 +52,7 @@ Your `Date` class must also support basic operations to change the date incremen
 ```
 
 class SFDate {
-  SFDate();                             //default to today, in GMT timezone
+  SFDate();                             //default to today
   SFDate(const char *aDateTimeString);  //must parse the given string of the form MM/DD/YYYY
   SFDate(int month, int day, int year); //build date from individual parts
   SFDate(const SFDate &aCopy);  
