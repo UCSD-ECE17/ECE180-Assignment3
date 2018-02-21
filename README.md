@@ -43,7 +43,7 @@ You are free to implement your `Date` class any way you see fit. It must, howeve
 
 - You must be able to construct a `SFDate` class without any arguments, in which case it refers to the current date
 - You must be able to construct a `SFDate` class using 3 integers (int month, int day, int year)
-- You must be able to construct a `SFDate` class using a well-formed string ("Jan 4, 1961") or ("January 4, 1961")
+- You must be able to construct a `SFDate` class using a well-formed string of the form MM/DD/YYYY
 - You must be able to copy construct a `SFDate` from another `SFDate` class, or convert/construct from a `SFDateTime` class
 - You must provide a conversion operator from your `SFDate` class to a const char*. 
 
